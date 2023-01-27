@@ -28,6 +28,11 @@ button {
   border-radius: 6px;
 }
 
+.app_heading {
+  margin-top: 50px;
+  text-align: center;
+}
+
 .weather-data {
   display: flex;
   flex-wrap: wrap;
