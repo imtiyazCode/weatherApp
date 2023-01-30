@@ -8,9 +8,7 @@ function App() {
   const [weather, setWeather] = useState(null)
   const [error, setError] = useState('')
 
-  const handleChange = (event) => {
-    setCity(event.target.value);
-  };
+  const handleChange = (event) => setCity(event.target.value);  
 
   const handleSubmit = async (event) => {
     event.preventDefault();
